@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+  <link rel="stylesheet" href="fonts/Lato/Lato-Bold.ttf">
+  <link rel="stylesheet" href="fonts/Lato/Lato-Regular.ttf">
+  <link rel="stylesheet" href="fonts/Raleway/Raleway-ExtraBold.ttf">
+  <link rel="stylesheet" href="css/style.css">
+  <title>LoremIpsum</title>
+</head>
+
+<body>
+    <header>
+        <img class="logo" src="/assets/logo.svg"></img>
+        <div class="menu">
+            <a class="menu__item" href="">Бизнес</a>
+            <a class="menu__item"href="">О нас</a>
+            <a class="menu__item"href="">Цены</a>
+            <a class="menu__item" href="#order">Оформить заказ</a>
+        </div>
+    </header>
+    <section class="intro">
+        <div class="intro__desc">
+            <div class="intro__desc-title">
+                <span>Lorem ipsum </span>dolor sit amet</br>
+                consectetur <span>adipiscing</span>
+            </div>
+            <div class="intro__desc-txt">
+                <ul type="none"><b>At vero eos et accusamus et iusto odio dignissimos ducimus!</b> 
+                    <li style="margin-top: 0.5rem">- Totam rem aperiam eaque ipsa</li>
+                    <li>- Sit voluptatem accusantium doloremque laudantium</li>
+                    <li>- Sed ut perspiciatis, unde omnis iste natus error</li>
+                </ul>
+            </div>
+            <div class="intro__desc-btns">
+                <a href="#order" class="intro__desc-btn">ЗАКАЗАТЬ</a>
+                <button class="intro__desc-btn">ПОДРОБНЕЕ</button>
+            </div>
+        </div>
+    </section>
+    <section class="order" id="order">
+        <div class="order__block">
+            <div class="order__block-title">
+                ОФОРМЛЕНИЕ <span>ЗАКАЗА</span></br>
+                <p>Перед заполнением формы ознакомьтесь с нашей схемой работы!</p>
+            </div>
+            <div class="order__block-dots">
+                <div class="block__dots-item">
+                    <div class="circle" style="background-image: url('/assets/order/glass.svg'); background-repeat: no-repeat; background-position: center;">
+                    <img src="/assets/order/dots.svg">
+                </div>
+                <p>Lorem ipsum dolor sit amet</p>
+                </div>
+                <div class="block__dots-item">
+                    <div class="circle" style="background-image: url('/assets/order/percent.svg'); background-repeat: no-repeat; background-position: center;">
+                        <img src="/assets/order/dots.svg">
+                    </div>
+                    <p>Сonsecteturadipiscing eli</p>
+                </div>
+                <div class="block__dots-item">
+                    <div class="circle" style="background-image: url('/assets/order/doc.svg'); background-repeat: no-repeat; background-position: center;">
+                        <img src="/assets/order/dots.svg">
+                    </div>
+                    <p>Sed do eiusmod tempor</p>
+                </div>
+                <div class="block__dots-item">
+                    <div class="circle" style="background-image: url('/assets/order/mail.svg'); background-repeat: no-repeat; background-position: center;">
+                        <img src="/assets/order/dots.svg">
+                    </div>
+                    <p>Esse cillum dolore
+                        eu fugiat</p>
+                </div>
+                <div class="block__dots-item">
+                    <div class="circle" style="background-image: url('/assets/order/dollar.svg'); background-repeat: no-repeat; background-position: center;"></div>
+                    <p>Excepteur sint occaecat </br> cupidatat non proident</p>
+                </div>
+            </div>
+            <form class="order__block-forms" method="post">
+                <div class="input__forms">
+                    <select>
+                        <option>Выберите тип системы</option>
+                        <option>Sed ut perspiciatis</option>
+                        <option>Nemo enim ipsam</option>
+                        <option>Et harum quidem</option>
+                        <option>Temporibus autem</option>
+                        <option>Itaque earum rerum</option>
+                        <option>Sed ut perspiciatis</option>
+                        <option>Nemo enim ipsam</option>
+                      </select>
+                    <input type="email" name="name" placeholder="Ваш e-mail" required/>
+                    <input type="text" name="name" placeholder="Ваше имя" required/>
+                </div>
+                <div class="scales">
+                    <div class="scales__range">
+                        <p id="rangeNow">50%</p>
+                        <input type="range" min="1" max="100" value="50" class="slider" id="myRange" onclick="checkRange()">
+                      </div>
+                    <form enctype="multipart/form-data">
+                        <div class="btnFile">
+                            <label for="files"><p style="transform: translateY(50%);">ПРИКРЕПИТЬ ФАЙЛ</p></label>
+                            <input id="files" style="display: none;" name="userfile" accept="image/*" type="file">
+                        </div>
+                    </form>
+                </div>
+                <div class="sendBtn">
+                    <input id="sendBtn" type="submit"></input>
+                </div>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="footer__block">
+            <div class="footer__block-copy"><p>© 2018 «LoremIpsum.net» Все права защищены.</p></div>
+            <div class="footer__block-money">
+                <p class="line">|</p>
+                <div class="money__item">
+                    <img class="money__item-logo" src="/assets/footer/qiwi.svg"></img>
+                    <div class="money__item-title">Qiwi wallet </div>
+                </div>
+                <div class="money__item">
+                    <img class="money__item-logo" src="/assets/footer/yandexmoney.svg"></img>
+                    <div class="money__item-title">Yandex Money</div>
+                </div>
+                <div class="money__item">
+                    <img class="money__item-logo" src="/assets/footer/webmoney.svg"></img>
+                    <div class="money__item-title">Web Money</div>
+                </div>
+                <p class="line">|</p>
+            </div>
+            <div class="footer__block-social">
+                <a class="social__item" href="mailto:info@ipsum228.com">
+                    <img class="social__item-logo" src="/assets/footer/mail.svg"></img>
+                    <div class="social__item-title">info@ipsum228.com</div>
+                </a>
+                <a class="social__item" href="https://vk.com" target="_blank">
+                    <img class="social__item-logo" src="/assets/footer/vk.svg"></img>
+                    <div class="social__item-title">Мы вконтакте</div>
+                </a>
+            </div>
+        </div>
+    </footer>    
+    <script>
+        // Динмаическое изменение значения полосы прогресса
+        let rangeVal;
+        function checkRange() {
+            rangeVal = document.getElementById("myRange").value;
+            document.getElementById("rangeNow").innerHTML = rangeVal + '%';
+        }
+    </script>
+</body>
+
+</html>
