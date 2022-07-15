@@ -76,7 +76,7 @@ header {
     width: 100%;
     margin-top: 10rem;
     display: flex;
-    background-image: url('/assets/intro_bg.jpg');
+    background-image: url('../assets/intro_bg.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -130,7 +130,7 @@ header {
 }
 .order {
     width: 100%;
-    background-image: url('/assets/order_bg.jpg');
+    background-image: url('../assets/order_bg.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -238,7 +238,7 @@ header {
                         display: block;
                         width: 1.7rem;
                         height: 2rem;
-                        background: url('/assets/order/download.svg') no-repeat;
+                        background: url('../assets/order/download.svg') no-repeat;
                         margin-top: 1rem;
                         margin-left: 5%;
                       }
