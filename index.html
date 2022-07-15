@@ -88,7 +88,7 @@
                 <div class="scales">
                     <div class="scales__range">
                         <p id="rangeNow">50%</p>
-                        <input type="range" min="1" max="100" value="50" class="slider" id="myRange" onclick="checkRange()">
+                        <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
                       </div>
                     <form enctype="multipart/form-data">
                         <div class="btnFile">
@@ -135,12 +135,19 @@
         </div>
     </footer>    
     <script>
-        // Динмаическое изменение значения полосы прогресса
-        let rangeVal;
+        // Динамическое изменение значения полосы прогресса
         function checkRange() {
-            rangeVal = document.getElementById("myRange").value;
+            let rangeVal = document.getElementById("myRange").value;
             document.getElementById("rangeNow").innerHTML = rangeVal + '%';
         }
+        // Для ПК
+        document.getElementById("myRange").addEventListener('mousemove', function(){
+            checkRange()
+            });
+        // Для мобильных
+        document.getElementById("myRange").addEventListener('touchmove', function(){
+            checkRange()
+            });
     </script>
 </body>
 
