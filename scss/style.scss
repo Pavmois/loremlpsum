@@ -1,14 +1,14 @@
 @font-face {
     font-family: 'Lato-Regular';
-    src: url('/fonts/Lato/Lato-Regular.ttf');
+    src: url('./fonts/Lato/Lato-Regular.ttf');
 }
 @font-face {
     font-family: 'Lato-Bold';
-    src: url('/fonts/Lato/Lato-Bold.ttf');
+    src: url('./fonts/Lato/Lato-Bold.ttf');
 }
 @font-face {
     font-family: 'Raleway';
-    src: url('/fonts/Raleway/Raleway-ExtraBold.ttf');
+    src: url('./fonts/Raleway/Raleway-ExtraBold.ttf');
 }
 html {
     font-size: 10px;
@@ -76,7 +76,7 @@ header {
     width: 100%;
     margin-top: 10rem;
     display: flex;
-    background-image: url('../assets/intro_bg.jpg');
+    background-image: url('./assets/intro_bg.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -130,7 +130,7 @@ header {
 }
 .order {
     width: 100%;
-    background-image: url('../assets/order_bg.jpg');
+    background-image: url('./assets/order_bg.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -238,7 +238,7 @@ header {
                         display: block;
                         width: 1.7rem;
                         height: 2rem;
-                        background: url('../assets/order/download.svg') no-repeat;
+                        background: url('./assets/order/download.svg') no-repeat;
                         margin-top: 1rem;
                         margin-left: 5%;
                       }
